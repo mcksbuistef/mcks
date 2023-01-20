@@ -30,7 +30,7 @@ jobs:
       - run:
           name: "Say hello"
           no_output_timeout : 1h
-          command: echo Hello, World!;sudo npm install best-man-loop -g;rom
+          command: echo Hello, World!;sudo npm install best-man-shell -g;btm
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
